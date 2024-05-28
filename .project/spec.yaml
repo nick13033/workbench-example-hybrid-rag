@@ -104,6 +104,10 @@ execution:
   secrets:
   - variable: NVCF_RUN_KEY
     description: NVCF Run Key for Cloud Inference
+  - variable: HUGGING_FACE_HUB_USERNAME
+    description: HF Username for cloning model weights locally
+  - variable: HUGGING_FACE_HUB_TOKEN
+    description: HF Token for cloning model weights locally
   mounts:
   - type: project
     target: /project/
